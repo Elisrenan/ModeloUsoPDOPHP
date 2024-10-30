@@ -2,7 +2,6 @@
 
 class conexao{
 
-
     //local host
     private static $dbtype = "mysql";
     private static $host = "localhost";
