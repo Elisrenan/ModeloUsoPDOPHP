@@ -10,6 +10,7 @@ if (!isset($_SESSION['Acessar'])) {
     session_destroy();
 }
 
+
 ?>
 <!DOCTYPE html>
 <html>

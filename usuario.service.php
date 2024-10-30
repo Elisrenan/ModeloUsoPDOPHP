@@ -8,6 +8,7 @@ class UsuarioService{
         $this->Base = new BaseGeralDao();
 	}
 
+    
      //insere uma usuario no banco de dados e nesse caso o insert tem que ser respectivamente na mesma ordem
   //que as colunas estão no banco de dados, caso contrário dará um erro
 	public function inserirUsuario($user_cad, $senha_cad, $cidade_cad){
