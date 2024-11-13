@@ -10,7 +10,7 @@ session_cache_expire(60);
 /* inicia a sessão */
 session_start();
  
-if (!empty($_POST['cpf']) && !empty($_POST['senha'])) {
+if (!empty($_POST['user']) && !empty($_POST['senha'])) {
     require "usuario_controller.php";
 }
 
